@@ -788,83 +788,18 @@ Blinkit-PowerBI-Dashboard/
 
 <p align="center">
   <a href="https://blinkit-dashboards.netlify.app/">
-    <img src="https://img.shields.io/badge/🌐%20LIVE%20DASHBOARD-Visit%20Now-F7C843?style=for-the-badge">
+    🌐 <b>View Live Dashboard</b>
   </a>
-</p>
-
-<p align="center">
-  <a href="https://blinkit-dashboards.netlify.app/">
-    <b>🌐 Open Live Dashboard</b>
-  </a>
-</p>
-
----
-
-# 📂 GitHub Repository
-
-<p align="center">
-  <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">
-    <img src="https://img.shields.io/badge/GitHub-View%20Repository-181717?style=for-the-badge&logo=github">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">
-    <b>📂 Blinkit Power BI Dashboard Repository</b>
-  </a>
-</p>
-
----
-
-# 👨‍💻 Author
-
-## Arpit Gupta
-
-**B.Tech — Computer Science & Engineering**
-
-<p align="center">
-
-<a href="https://github.com/Arpit12890">
-<img src="https://img.shields.io/badge/GitHub-Arpit12890-181717?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://www.linkedin.com/in/arpit-gupta-014819252">
-<img src="https://img.shields.io/badge/LinkedIn-Arpit%20Gupta-0A66C2?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="mailto:arpitgupta205001@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
 </p>
 
 ---
 
 # 🔗 Connect With Me
 
-- 🌐 **Live Dashboard:** [blinkit-dashboards.netlify.app](https://blinkit-dashboards.netlify.app/)
-- 💻 **GitHub:** [github.com/Arpit12890](https://github.com/Arpit12890)
-- 📂 **Project Repository:** [Blinkit-PowerBI-Dashboard](https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard)
-- 🔗 **LinkedIn:** [linkedin.com/in/arpit-gupta-014819252](https://www.linkedin.com/in/arpit-gupta-014819252)
-- 📧 **Email:** [arpitgupta205001@gmail.com](mailto:arpitgupta205001@gmail.com)
+<p align="center">
+  <a href="https://github.com/Arpit12890">💻 GitHub</a> •
+  <a href="https://www.linkedin.com/in/arpit-gupta-014819252">🔗 LinkedIn</a> •
+  <a href="mailto:arpitgupta205001@gmail.com">📧 Gmail</a>
+</p>
 
 ---
-
-# ⭐ Support
-
-If you found this project useful or interesting, please consider giving the repository a ⭐.
-
----
-
-<p align="center">
-  <b>📊 Blinkit Power BI Dashboard</b>
-</p>
-
-<p align="center">
-  Built with ❤️ using MySQL • Power Query • Power BI • DAX • Figma
-</p>
-
-<p align="center">
-  <a href="https://blinkit-dashboards.netlify.app/">🌐 Live Dashboard</a> •
-  <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">📂 GitHub Repository</a>
-</p>
