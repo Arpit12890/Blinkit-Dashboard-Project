@@ -1,35 +1,24 @@
 # 🛒 Blinkit Power BI Dashboard
 
-<p align="center">
-  <img src="./assets/Images/Dashboard/Home.png" alt="Blinkit Power BI Dashboard" width="100%">
-</p>
-
-<h3 align="center">
-  Interactive Business Intelligence Dashboard built with Microsoft Power BI
-</h3>
-
-<p align="center">
-  <a href="https://blinkit-dashboards.netlify.app/">🌐 Live Dashboard</a> •
-  <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">📂 GitHub Repository</a>
-</p>
-
----
-
 ## 📌 Project Overview
 
-The **Blinkit Power BI Dashboard** is an interactive Business Intelligence project created using **Microsoft Power BI**.
+The **Blinkit Power BI Dashboard** is an interactive business dashboard that helps analyze Blinkit’s **sales, customers, inventory, feedback, and marketing performance** in one place.
 
-The dashboard brings different business areas together in one place and provides insights into:
+It uses **MySQL, Power Query, Power BI, and DAX** to transform business data into easy-to-understand charts, KPIs, and interactive reports.
 
-* 📈 Sales performance
-* 👥 Customer behavior
-* 💬 Customer feedback
-* 📦 Inventory
-* 📢 Marketing performance
-* 📅 Monthly and yearly trends
-* 📊 Current vs previous-period performance
+Users can apply filters, compare different time periods, view **YTD performance**, analyze **Top-N products/customers/areas**, and use the **Dynamic System Year Toggle** to automatically update year-based analysis.
 
-The main goal is to convert business data into simple, visual and actionable insights for better decision-making.
+The dashboard helps answer simple business questions like:
+
+- 💰 How are sales performing?
+- 👥 How are customers changing?
+- 📦 How much stock is available or damaged?
+- 💬 What are customers saying?
+- 📢 How are marketing activities performing?
+
+**In simple words:**
+
+> This project converts Blinkit business data into an interactive Power BI dashboard so users can quickly understand business performance and make data-driven decisions.
 
 ---
 
@@ -37,75 +26,78 @@ The main goal is to convert business data into simple, visual and actionable ins
 
 The dashboard is designed to:
 
-* Monitor important business KPIs
-* Analyze sales performance and trends
-* Understand customer behavior
-* Track new, lost and repeat customers
-* Analyze customer feedback and ratings
-* Monitor available, received and damaged stock
-* Evaluate marketing performance
-* Compare current and previous-year performance
-* Provide interactive filtering and dynamic analysis
+- Monitor important business KPIs
+- Analyze sales performance and trends
+- Compare current and previous-year performance
+- Track Year-to-Date (YTD) performance
+- Understand customer purchasing behavior
+- Analyze new, lost and repeat customers
+- Monitor customer feedback and ratings
+- Track available, received and damaged stock
+- Analyze marketing performance
+- Identify top-performing products, customers and areas
+- Provide dynamic filtering and time-based analysis
+- Automatically update year-based analysis using the system year
 
 ---
 
 # 🛠️ Tools & Technologies
 
-| Technology             | Purpose                                                 |
-| ---------------------- | ------------------------------------------------------- |
-| **Microsoft Power BI** | Dashboard development and data visualization            |
-| **MySQL**              | Data storage, querying and importing data into Power BI |
-| **DAX**                | Measures, KPIs and business calculations                |
-| **Power Query**        | Data cleaning and transformation                        |
-| **Data Modeling**      | Creating relationships and analytical data structure    |
-| **Figma**              | Dashboard UI/UX design and layout planning              |
-| **GitHub**             | Project hosting and documentation                       |
-| **Netlify**            | Live project deployment                                 |
+| Technology | Purpose |
+|------------|---------|
+| **Microsoft Power BI** | Dashboard development and data visualization |
+| **MySQL** | Data storage, querying and data import |
+| **DAX** | Measures, KPIs, YTD and business calculations |
+| **Power Query** | Data cleaning and transformation |
+| **Data Modeling** | Creating relationships between tables |
+| **Figma** | Dashboard UI/UX design and layout planning |
+| **GitHub** | Version control and project documentation |
+| **Netlify** | Live dashboard deployment |
 
 ### 🔧 Technology Stack
 
-* **Power BI** — Interactive dashboard development and visualization
-* **MySQL** — Data querying and importing data into Power BI
-* **DAX** — Dynamic measures and business calculations
-* **Power Query** — Data cleaning and transformation
-* **Data Modeling** — Relationships and analytical structure
-* **Figma** — Dashboard UI/UX design and layout planning
-* **GitHub** — Version control and project documentation
-* **Netlify** — Live project deployment
+- **Power BI** — Interactive dashboard development
+- **MySQL** — Data source and SQL querying
+- **DAX** — Business calculations and dynamic measures
+- **Power Query** — Data cleaning and transformation
+- **Data Modeling** — Relationships and analytical structure
+- **Figma** — Dashboard UI/UX design
+- **GitHub** — Repository and documentation
+- **Netlify** — Live deployment
 
 ---
 
 # 📊 Dashboard Pages
 
-The Power BI report contains **7 main pages**:
+The dashboard contains **7 main pages**:
 
 ```text
 🏠 Home
-   │
-   ├── 📈 Overview
-   ├── 💰 Sales
-   ├── 👥 Customers
-   ├── 💬 Feedbacks
-   ├── 📦 Inventory
-   └── 📢 Marketing
+│
+├── 📈 Overview
+├── 💰 Sales
+├── 👥 Customers
+├── 💬 Feedbacks
+├── 📦 Inventory
+└── 📢 Marketing
 ```
 
 ---
 
 # 🏠 1. Home
 
-The **Home page** is the starting point of the dashboard.
+The **Home page** is the main navigation page of the dashboard.
 
-It provides navigation to the different sections of the report and makes it easy for users to move between pages.
+It provides quick access to all major sections of the report.
 
 ### Main Sections
 
-* Overview
-* Sales
-* Customers
-* Feedbacks
-* Inventory
-* Marketing
+- Overview
+- Sales
+- Customers
+- Feedbacks
+- Inventory
+- Marketing
 
 ### Purpose
 
@@ -121,46 +113,48 @@ The Home page provides a simple and user-friendly entry point to the complete da
 
 The **Overview page** provides a quick summary of overall business performance.
 
-It brings important information from different business areas into one page.
+It combines important information from different business areas into one view.
 
-### 📊 Sales
+### 💰 Sales
 
-The page provides sales performance information including:
+The page provides:
 
-* Current-period sales
-* Previous-period sales
-* Sales growth
-* Monthly sales trends
+- Current-period sales
+- Previous-period sales
+- Growth %
+- Monthly sales trends
+- YTD sales performance
 
 ### 👥 Customers
 
-Customer performance is summarized using:
+The customer summary includes:
 
-* Customer count
-* Previous-period customer count
-* Customer growth
+- Customer count
+- Previous-period customer count
+- Customer growth
+- Customer sales contribution
 
 ### 📦 Inventory
 
 The inventory summary includes:
 
-* Available Stock %
-* Damaged Stock %
-* Stock Received
-* Available Stock
-* Stock Sales %
+- Available Stock %
+- Damaged Stock %
+- Stock Received
+- Available Stock
+- Stock Sales %
 
 ### 📢 Marketing
 
-Marketing performance can be viewed through important marketing metrics.
+The page provides a quick summary of important marketing metrics.
 
 ### 💬 Feedbacks
 
-The page also provides a quick view of customer feedback and ratings.
+A quick view of customer feedback and ratings is also available.
 
-### Purpose
+### 🎯 Purpose
 
-The Overview page helps answer:
+The Overview page answers:
 
 > **"How is the business performing overall?"**
 
@@ -174,29 +168,32 @@ The Overview page helps answer:
 
 The **Sales page** provides detailed analysis of sales performance.
 
-### 💳 Payment Method Analysis
+### 💳 Payment Method
 
-Sales are analyzed based on different payment methods.
+Sales are analyzed using different payment methods.
 
-This helps understand how customers are paying for their orders.
+This helps understand customer payment preferences.
 
 ### 👥 Customer Segment
 
-The dashboard analyzes sales based on customer segments.
-
-This helps understand which customer groups contribute to sales.
+Sales performance can be analyzed across different customer segments.
 
 ### 🏆 Top Products
 
-The dashboard provides Top-N product analysis.
+The dashboard provides dynamic Top-N product analysis.
 
-Users can select different Top-N options to identify the products with the highest sales quantity.
+Available selections include:
+
+- All Sales
+- Top 5
+- Top 10
+- Top 20
+- Top 50
+- Top 100
 
 ### 📍 Top Areas
 
-The dashboard also provides Top-N analysis for areas.
-
-This helps identify locations with stronger sales performance.
+Top-performing areas can also be analyzed using dynamic Top-N selection.
 
 ### 📅 Monthly Sales
 
@@ -204,19 +201,17 @@ Monthly sales are compared across different years.
 
 The analysis includes:
 
-* Current-year sales
-* Previous-year sales
-* Growth %
+- Current Year
+- Previous Year
+- Growth %
 
-This helps identify sales growth and changes over time.
+### 📆 YTD Sales
 
-### 🎛️ Filters
+**Year-to-Date (YTD)** analysis tracks cumulative sales performance from the beginning of the selected year up to the selected period.
 
-The page provides interactive filters for different business dimensions.
+### 🎯 Purpose
 
-### Purpose
-
-The Sales page helps answer:
+The Sales page answers:
 
 > **"What is selling, where is it selling, and how is sales performance changing?"**
 
@@ -230,45 +225,39 @@ The Sales page helps answer:
 
 The **Customers page** focuses on customer growth and purchasing behavior.
 
-### 👤 Customer Count
+### 👤 Total Customers
 
-The dashboard compares customer counts across different periods.
+Shows the total number of customers and comparison with the previous period.
 
 ### 🆕 New Customers
 
-Shows customers who are newly acquired during the selected period.
+Identifies newly acquired customers.
 
 ### ❌ Lost Customers
 
-Shows customers who are no longer active within the analyzed period.
+Identifies customers who are no longer active.
 
 ### 🔁 Repeat Customers
 
-The dashboard tracks repeat customers and their contribution to sales.
+Tracks customers who place multiple orders.
 
 ### 🏆 Top Customers
 
-Top-N analysis helps identify customers with the highest contribution.
+Dynamic Top-N analysis helps identify customers with the highest purchase quantity.
 
 ### 📅 Monthly Customer Trend
 
-The dashboard compares customer counts across months and years.
+Customer counts are compared month-by-month across years.
 
-It helps identify:
+### 📆 YTD Customer Analysis
 
-* Customer growth
-* Decline
-* Period-wise changes
+YTD analysis tracks cumulative customer performance during the selected year.
 
-### 🎛️ Filters
+### 🎯 Purpose
 
-Users can interact with the page using different filters and selections.
+The Customers page answers:
 
-### Purpose
-
-The Customer page helps answer:
-
-> **"How is the customer base changing, and how many customers are coming back?"**
+> **"How is the customer base changing and how many customers are coming back?"**
 
 <p align="center">
   <img src="./assets/Images/Dashboard/Customers.png" alt="Blinkit Customer Dashboard" width="100%">
@@ -278,45 +267,39 @@ The Customer page helps answer:
 
 # 💬 5. Feedbacks
 
-The **Feedbacks page** focuses on customer opinions and satisfaction.
+The **Feedbacks page** provides detailed analysis of customer feedback.
 
 ### 🗂️ Feedback Categories
 
-Customer feedback is grouped into different categories.
-
-This helps identify the areas receiving more customer feedback.
+Feedback is categorized into different business areas.
 
 ### 😊 Customer Sentiment
 
-Feedback is analyzed using sentiment categories such as:
+Feedback is analyzed using:
 
-* Positive
-* Neutral
-* Negative
+- Positive
+- Neutral
+- Negative
 
 ### ⭐ Customer Ratings
 
-The page provides rating-based analysis to understand customer satisfaction.
+The dashboard provides rating-wise analysis.
 
 ### 📋 Feedback Details
 
-A detailed table provides information about individual customer feedback, including:
+A detailed table provides:
 
-* Customer Name
-* Customer Segment
-* Feedback Segment
-* Feedback Category
-* Feedback
-* Rating
-* Star Rating
+- Customer Name
+- Customer Segment
+- Feedback Segment
+- Feedback Category
+- Feedback Text
+- Rating
+- Star Rating
 
-### 🎛️ Filters
+### 🎯 Purpose
 
-Users can filter feedback data according to different dimensions.
-
-### Purpose
-
-The Feedback page helps answer:
+The Feedback page answers:
 
 > **"What are customers saying about the business?"**
 
@@ -328,17 +311,15 @@ The Feedback page helps answer:
 
 # 📦 6. Inventory
 
-The **Inventory page** focuses on stock management.
+The **Inventory page** focuses on stock management and inventory health.
 
 ### 📊 Main KPIs
 
-The dashboard provides important inventory metrics such as:
-
-* Period Inventory Value
-* Stock Received
-* Damaged Stock
-* Available Stock
-* Stock Sales %
+- Period Inventory Value
+- Stock Received
+- Available Stock
+- Damaged Stock
+- Stock Sales %
 
 ### 🟢 Available Stock
 
@@ -346,26 +327,28 @@ Shows the amount and percentage of stock currently available.
 
 ### 🔴 Damaged Stock
 
-Shows the quantity and percentage of damaged stock.
+Shows damaged stock quantity and its percentage.
 
 ### 📈 Stock Information
 
-The dashboard tracks inventory information over time, including:
+The dashboard tracks:
 
-* Stock Received
-* Period Inventory Value
-* Available Stock
-* Damaged Stock
+- Stock Received
+- Period Inventory Value
+- Available Stock
+- Damaged Stock
 
-### 📊 Stock Distribution
+over time.
 
-The dashboard compares available stock and stock sales to provide a better understanding of inventory utilization.
+### 📆 YTD Inventory Analysis
 
-### Purpose
+YTD analysis can be used to monitor cumulative inventory performance during the selected year.
 
-The Inventory page helps answer:
+### 🎯 Purpose
 
-> **"How much stock is available, how much was received, how much was sold, and how much was damaged?"**
+The Inventory page answers:
+
+> **"How much stock is available, received, sold and damaged?"**
 
 <p align="center">
   <img src="./assets/Images/Dashboard/Inventory.png" alt="Blinkit Inventory Dashboard" width="100%">
@@ -375,49 +358,39 @@ The Inventory page helps answer:
 
 # 📢 7. Marketing
 
-The **Marketing page** analyzes marketing performance.
+The **Marketing page** provides detailed marketing performance analysis.
 
-### 👁️ Impressions
+### 📊 Key Metrics
 
-Shows the number of times marketing activities were displayed.
+- 👁️ Impressions
+- 🖱️ Clicks
+- 🎯 Conversions
+- 💰 Marketing Spend
+- 💵 Revenue
+- 📈 ROAS
 
-### 🖱️ Clicks
+### 📅 Monthly Marketing Analysis
 
-Shows user interactions with marketing activities.
+Marketing metrics can be analyzed month-by-month.
 
-### 🎯 Conversions
+The dashboard provides analysis of:
 
-Shows the number of successful conversions.
+- Impressions
+- Clicks
+- Conversions
+- Spend
+- Revenue
+- ROAS
 
-### 💰 Marketing Spend
+### 📆 YTD Marketing Analysis
 
-Tracks the amount spent on marketing activities.
+YTD analysis helps track cumulative marketing performance from the beginning of the year to the selected period.
 
-### 💵 Revenue
+### 🎯 Purpose
 
-Shows the revenue generated through marketing activities.
+The Marketing page answers:
 
-### 📊 ROAS
-
-ROAS helps understand how effectively marketing spending generates revenue.
-
-### 📅 Monthly Marketing Performance
-
-The dashboard provides monthly marketing analysis and allows different marketing metrics to be compared over time.
-
-### 📈 Year Comparison
-
-Marketing performance can also be compared between:
-
-* Current Year
-* Previous Year
-* Growth %
-
-### Purpose
-
-The Marketing page helps answer:
-
-> **"How are our marketing activities performing and what results are they generating?"**
+> **"How are marketing activities performing and what results are they generating?"**
 
 <p align="center">
   <img src="./assets/Images/Dashboard/Marketing.png" alt="Blinkit Marketing Dashboard" width="100%">
@@ -425,162 +398,364 @@ The Marketing page helps answer:
 
 ---
 
-# 🎛️ Interactive Features
+# 🎛️ Filter Panel
 
-The dashboard includes several interactive features for better analysis.
+The dashboard includes a dedicated **Filter Panel** that provides centralized control over the report.
 
-### 🔄 Period Comparison
+<p align="center">
+  <img src="./assets/Images/Dashboard/FilterPanel.png" alt="Blinkit Dashboard Filter Panel" width="70%">
+</p>
 
-Users can compare current and previous periods to understand business growth.
-
-### 🎯 Top-N Analysis
-
-Top-N analysis is available for:
-
-* Products
-* Areas
-* Customers
-
-### 📅 Time-Based Analysis
-
-Users can analyze business performance across different time periods.
-
-### 🔎 Interactive Filters
-
-Filters allow users to analyze specific:
-
-* Years
-* Months
-* Categories
-* Customers
-* Customer Segments
-* Payment Methods
-* Areas
-* Dates
-
-### 📊 Dynamic Metrics
-
-The dashboard provides dynamic metric selection in relevant sections, allowing users to analyze different measures without creating separate visuals for each metric.
+The Filter Panel allows users to dynamically control the analysis.
 
 ---
 
-# 📐 Power BI Concepts Used
+## 📊 Quantity / Value Toggle
 
-This project demonstrates practical use of several Power BI concepts.
+Users can switch between:
 
-### 🔄 Power Query
+- **Quantity** — Analyze performance based on quantity.
+- **Value** — Analyze performance based on business value.
 
-Used for preparing, cleaning and transforming data before analysis.
+This allows the dashboard to support different analytical requirements.
 
-### 🗄️ MySQL
+---
 
-MySQL is used as the data source for querying and importing business data into Power BI.
+## 📅 Date Axis Selector
 
-### 🔗 Data Modeling
+Users can dynamically change the date granularity.
 
-Used to organize tables and establish relationships between business data.
+Available options:
 
-### 🧮 DAX
+- Month
+- Month-Yr
+- Quarter
+- Day
 
-DAX is used to create business calculations and dynamic KPIs.
+This allows the same metric to be analyzed at different time levels.
 
-Examples include:
+---
 
-* Current-period values
-* Previous-period values
-* Growth %
-* Customer metrics
-* Repeat customer metrics
-* Inventory metrics
-* Marketing metrics
-* Top-N analysis
+## ⏱️ Period Selection
 
-### 🎨 Figma
+Quick period buttons are available:
 
-Figma is used for dashboard design and layout planning before implementing the final dashboard in Power BI.
+- Last Month
+- Last 2 Months
+- Last 3 Months
+- Last 6 Months
+- Last 9 Months
+- YTD
 
-### 📊 Data Visualization
+These buttons allow users to quickly change the analysis period.
 
-The dashboard uses:
+---
 
-* KPI Cards
-* Bar Charts
-* Line Charts
-* Donut Charts
-* Tables
-* Slicers
-* Dynamic selections
-* Navigation elements
+## 💳 Payment Method Filter
+
+Users can filter the dashboard according to the selected payment method.
+
+---
+
+## 📆 Year Filter
+
+Users can select the required year for analysis.
+
+This helps compare and analyze business performance across different years.
+
+---
+
+## 👥 Customer Segment Filter
+
+Users can filter the dashboard according to customer segment.
+
+---
+
+## 👤 Customer Filter
+
+Users can select an individual customer and analyze their performance.
+
+---
+
+## 📅 YTD Month Filter
+
+The **YTD Month** filter allows users to select a specific month for Year-to-Date analysis.
+
+For example:
+
+```text
+January → YTD January
+March   → YTD January to March
+June    → YTD January to June
+```
+
+---
+
+## 📍 Area Filter
+
+Users can filter the dashboard according to a specific business area.
+
+---
+
+# 🔄 Dynamic System Year Toggle
+
+The dashboard includes a **Dynamic System Year Toggle** that allows the user to switch between a predefined analysis year and the current system year.
+
+### ⚙️ How It Works
+
+```text
+OFF → Uses the predefined/default analysis year
+
+ON  → Uses the current system year dynamically
+```
+
+When the toggle is enabled, the dashboard identifies the current year from the system date and updates the relevant year-based analysis.
+
+### 📅 Example
+
+If the default analysis year is **2024**:
+
+```text
+System Year Toggle → OFF
+Analysis Year → 2024
+```
+
+When the toggle is enabled:
+
+```text
+System Year Toggle → ON
+Analysis Year → Current System Year
+```
+
+### 🎯 Benefits
+
+- 🔄 Automatic year updating
+- 📅 Reduces manual year changes
+- 📊 Keeps year-based analysis dynamic
+- ⚡ Reduces dashboard maintenance
+- 🚀 Makes the dashboard more future-ready
+
+---
+
+# 🎛️ Interactive Features
+
+The dashboard contains several interactive features.
+
+### 🔄 Dynamic System Year
+
+Users can switch between:
+
+- Default analysis year
+- Current system year
+
+This reduces manual year maintenance.
+
+### 🎯 Dynamic Top-N Analysis
+
+Users can dynamically select:
+
+- Top 5
+- Top 10
+- Top 20
+- Top 50
+- Top 100
+- All Sales
+
+### 📆 Dynamic Time Periods
+
+Users can select:
+
+- Last Month
+- Last 2 Months
+- Last 3 Months
+- Last 6 Months
+- Last 9 Months
+- YTD
+
+### 📊 Dynamic Date Axis
+
+Users can change the analysis level between:
+
+- Month
+- Month-Yr
+- Quarter
+- Day
+
+### 🎚️ Quantity / Value Toggle
+
+Users can switch between quantity-based and value-based analysis.
+
+### 🔎 Centralized Filters
+
+The Filter Panel provides filters for:
+
+- Year
+- Payment Method
+- Customer
+- Customer Segment
+- YTD Month
+- Area
+
+---
+
+# 📆 YTD Analysis
+
+**Year-to-Date (YTD)** is an important analytical feature of the dashboard.
+
+YTD calculates cumulative performance from the beginning of the selected year up to the selected date or month.
+
+### YTD is used for:
+
+- 💰 Sales
+- 👥 Customers
+- 📦 Inventory
+- 📢 Marketing
+
+### Example
+
+If the selected YTD month is **June**:
+
+```text
+YTD = January + February + March + April + May + June
+```
+
+This provides a clear view of business performance so far in the year.
+
+---
+
+# 🧮 DAX & Data Analysis
+
+DAX is used to create dynamic calculations and business measures.
+
+### Key DAX Concepts
+
+- Measures
+- Variables
+- CALCULATE
+- FILTER
+- SUM
+- DISTINCTCOUNT
+- SELECTEDVALUE
+- MAX
+- IF
+- SWITCH
+- SUMMARIZE
+- RANKX
+- Time Intelligence
+- YTD
+- Growth %
+- Dynamic Top-N
+- Dynamic Year Selection
+
+### 🔄 Dynamic System Year Logic
+
+The dashboard uses DAX logic to determine whether the user wants to use:
+
+```text
+Default Year
+     OR
+System Year
+```
+
+This makes the report more dynamic and reduces manual maintenance.
+
+---
+
+# 🔄 Data Workflow
+
+```text
+                MySQL
+                  │
+                  ▼
+          Data Extraction
+                  │
+                  ▼
+            Power Query
+                  │
+                  ▼
+        Data Transformation
+                  │
+                  ▼
+           Data Modeling
+                  │
+                  ▼
+                DAX
+                  │
+                  ▼
+           Power BI Report
+                  │
+                  ▼
+        Interactive Dashboard
+                  │
+                  ▼
+              Netlify
+                  │
+                  ▼
+           Live Dashboard
+```
+
+---
+
+# 📐 Dashboard Design
+
+The dashboard UI and layout were planned using **Figma** before implementation in Power BI.
+
+The design focuses on:
+
+- Clean layout
+- Consistent spacing
+- Easy navigation
+- Clear KPI presentation
+- Consistent color palette
+- User-friendly filtering
+- Interactive navigation
+- Business-focused visualization
 
 ---
 
 # 💡 Business Insights
 
-The dashboard can help businesses understand:
+The dashboard helps answer important business questions.
 
 ### 💰 Sales
 
-* Which products perform best?
-* Which areas generate more sales?
-* How are sales changing over time?
+- Which products are performing best?
+- Which areas generate the highest quantity?
+- How are sales changing month-by-month?
+- How is YTD sales progressing?
+- How does the current year compare with the previous year?
 
 ### 👥 Customers
 
-* How many new customers are acquired?
-* How many customers are lost?
-* How many customers are repeat buyers?
-
-### 📦 Inventory
-
-* How much stock is available?
-* How much stock has been received?
-* How much stock is damaged?
+- How many customers are active?
+- How many new customers were acquired?
+- How many customers were lost?
+- How many customers are repeat buyers?
+- How is customer performance changing?
 
 ### 💬 Feedback
 
-* What are customers saying?
-* What are the major feedback categories?
-* How are customer ratings distributed?
+- What are customers saying?
+- Which feedback category receives the most feedback?
+- What is the overall sentiment?
+- How are ratings distributed?
+
+### 📦 Inventory
+
+- How much stock is available?
+- How much stock was received?
+- How much stock is damaged?
+- What percentage of stock is available?
+- How is inventory changing over time?
 
 ### 📢 Marketing
 
-* How many impressions and clicks are generated?
-* How many conversions are achieved?
-* How much is spent on marketing?
-* How much revenue is generated?
-* What is the ROAS?
-
----
-
-# 🔄 Project Workflow
-
-```text
-        MySQL
-          │
-          ▼
-    Data Extraction
-          │
-          ▼
-     Power Query
-          │
-          ▼
-   Data Transformation
-          │
-          ▼
-    Data Modeling
-          │
-          ▼
-        DAX
-          │
-          ▼
-   Power BI Dashboard
-          │
-          ▼
-      Netlify
-          │
-          ▼
-    Live Dashboard
-```
+- How many impressions are generated?
+- How many clicks are received?
+- How many conversions are generated?
+- How much is spent?
+- How much revenue is generated?
+- What is the ROAS?
 
 ---
 
@@ -590,7 +765,7 @@ The dashboard can help businesses understand:
 Blinkit-PowerBI-Dashboard/
 │
 ├── README.md
-├── Blinkit(3).pbix
+├── Blinkit.pbix
 │
 └── assets/
     └── Images/
@@ -601,8 +776,11 @@ Blinkit-PowerBI-Dashboard/
             ├── Customers.png
             ├── Feedbacks.png
             ├── Inventory.png
-            └── Marketing.png
+            ├── Marketing.png
+            └── Filter Panel.png
 ```
+
+> **Note:** Keep the image file names and folder paths exactly the same as used in this README.
 
 ---
 
@@ -614,8 +792,11 @@ Blinkit-PowerBI-Dashboard/
   </a>
 </p>
 
-**Live Dashboard:**
-https://blinkit-dashboards.netlify.app/
+<p align="center">
+  <a href="https://blinkit-dashboards.netlify.app/">
+    <b>🌐 Open Live Dashboard</b>
+  </a>
+</p>
 
 ---
 
@@ -627,8 +808,11 @@ https://blinkit-dashboards.netlify.app/
   </a>
 </p>
 
-**Repository:**
-https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard
+<p align="center">
+  <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">
+    <b>📂 Blinkit Power BI Dashboard Repository</b>
+  </a>
+</p>
 
 ---
 
@@ -658,32 +842,29 @@ https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard
 
 # 🔗 Connect With Me
 
-* 🌐 **Live Dashboard:** https://blinkit-dashboards.netlify.app/
-* 💻 **GitHub:** https://github.com/Arpit12890
-* 🔗 **LinkedIn:** https://www.linkedin.com/in/arpit-gupta-014819252
-* 📧 **Email:** [arpitgupta205001@gmail.com](mailto:arpitgupta205001@gmail.com)
+- 🌐 **Live Dashboard:** [blinkit-dashboards.netlify.app](https://blinkit-dashboards.netlify.app/)
+- 💻 **GitHub:** [github.com/Arpit12890](https://github.com/Arpit12890)
+- 📂 **Project Repository:** [Blinkit-PowerBI-Dashboard](https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard)
+- 🔗 **LinkedIn:** [linkedin.com/in/arpit-gupta-014819252](https://www.linkedin.com/in/arpit-gupta-014819252)
+- 📧 **Email:** [arpitgupta205001@gmail.com](mailto:arpitgupta205001@gmail.com)
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, please consider giving the repository a ⭐.
+If you found this project useful or interesting, please consider giving the repository a ⭐.
 
 ---
 
 <p align="center">
-  <img src="./assets/Images/Dashboard/Home.png" alt="Blinkit Power BI Dashboard" width="100%">
+  <b>📊 Blinkit Power BI Dashboard</b>
 </p>
 
-<h3 align="center">
-  📊 Interactive Business Intelligence Dashboard built with Power BI
-</h3>
+<p align="center">
+  Built with ❤️ using MySQL • Power Query • Power BI • DAX • Figma
+</p>
 
 <p align="center">
   <a href="https://blinkit-dashboards.netlify.app/">🌐 Live Dashboard</a> •
   <a href="https://github.com/Arpit12890/Blinkit-PowerBI-Dashboard">📂 GitHub Repository</a>
-</p>
-
-<p align="center">
-  <b>Built with MySQL • Power Query • Power BI • DAX • Figma</b>
 </p>
